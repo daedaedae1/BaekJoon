@@ -18,7 +18,7 @@ public class BOJ_11720 {
 		int sum = 0;
 
 		for (int i = 0; i < n; i++) {
-			sum += str.charAt(i)-48;
+			sum += str.charAt(i) - 48;
 		}
 		
 		System.out.println(sum);
